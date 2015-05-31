@@ -1,0 +1,58 @@
+.carousel-inner img {
+  margin: auto;
+}
+
+#menu-items {
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 600px;
+}
+
+#menu_left {
+	width:450px;
+	float:left;
+	margin:0 auto;
+}
+
+#menu_right {
+	width:450px;
+	float:right;
+	margin:0 auto;
+}
+
+#buttons-and-carousel{
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 370px;
+}
+
+#meal-dining-hall-buttons{
+	margin-top: 22px;
+	float: left;
+}
+
+#carousel-wrapper{
+	float: right;
+	max-width: 600px;
+	min-width: 600px;
+	max-height: 400px;
+	min-height: 400px;
+}
+
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+#modal-rating {
+	vertical-align: middle;
+}
+
+
+
+.foodreviews {
+	height: 270px !important;
+    overflow: auto;
+}

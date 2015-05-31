@@ -1,0 +1,46 @@
+Status Report 1
+Comp20 Semester Project
+Group 10
+Written by: Henry Zhou
+			Brian Williamson
+			Katie Kurtz
+Time spent working on the project: 15 Hours
+
+------------------------------------------------------------------------------
+
+1) What was accomplished during the week
+	
+
+ This week we moved away from front-end design 
+ and started working on our server.  Unfortunately 
+ we couldn't schedule enough time as a group to put 
+ together something concrete but we're able to scrape 
+ the Tufts menu and were trying to figure out how to 
+ organize it onto our own webpage.
+
+2) Challenges and issues faced by the team
+
+	The current Tufts Dining menu stores all of the 
+	food items under one class instead of unique classes
+	for meal and food-type.  We are currently working 
+	on organizing the data into our ideal menu structure
+	given the jumble of data we're able to scrape from
+	the website.  
+
+3) Next week's goals 
+
+	We still need to make progress on the framework and backend
+	of our site. We hope to make a bit more progress on the
+	MongoDB database and gain better working knowledge of the 
+	APIs we want to utilize.  We have not yet had the chance
+	to set up our express framework, but we plan on having 
+	it, along with the scraping and our databases, up and running on
+	the site soon so that we can turn our attention to the review
+	feature and other extra touches that will make our site
+	more convenient for the student body than the current Tufts
+	Dining page is.
+
+#Comments by Ming
+* Have you scraped the Tufts menus yet?
+* "One thing to keep in mind is the API. We need to figure our the Twilio and Flickr API's to integrate into our page" --any progress on this?
+* Where's status report 3?

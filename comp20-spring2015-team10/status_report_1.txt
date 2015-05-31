@@ -1,0 +1,82 @@
+Status Report 1
+Comp20 Semester Project
+Group 10
+Written by: Henry Zhou
+			Brian Williamson
+			Katie Kurtz
+Time spent working on the project: 15 Hours
+
+------------------------------------------------------------------------------
+
+1) What was accomplished during the week
+	
+	Major work was done on the menu.html page for the website. 
+	We figured out the following:
+		* Layout of buttons, carousel, menu items, etc.
+		* Dynamic behavior of page elements such as 
+		  buttons, carousel scrolling/behavior, 
+		  table accordion behavior, and basic 
+		  modal activation. 
+
+	We also started developing an application to scrape
+	text from websites. This application will be used to 
+	scrape the Tufts Dining website for menu listings and
+	nutritional information. This information will then
+	be used on our site to best emulate the Tufts Dining
+	website. The application currently is able to
+	scrape text from imdb.com. 
+
+2) Challenges and issues faced by the team
+
+	We had difficulty navigating the documentation
+	for the buttons that selected the dining location,
+	meal time, and date. One issue we overcame was that
+	our buttons would all change to the value selected in
+	a single dropdown list of a button. Consequently,
+	all the buttons values would change to the same value. 
+
+	This issue was fixed by writing a jQuery script that 
+	selected only the parent button of a listing and would
+	only change the value of its parent's button to the 
+	selected value. 
+
+3) Next week's goals 
+
+	We would like to finish up most of the front end design side
+	by the end of next week. This includes completion of the
+	other main pages of the website. 
+
+	We also need to start working on the framework and backend
+	side of the website. This includes learning how to set up the
+	MongoDB database to store our collections of documents. Such
+	documents include menu items. We will have a main collection
+	of all the food items, and then we will also have collections 
+	of food items organized by the day, mealtime, and dining
+	hall location. 
+
+	Once we populate our database, we need to figure out how
+	to set up our express framework. This will allow our website
+	to communicate with our database. 
+
+	We also need to complete our application for scraping 
+	data from the Tufts website. This will provide the data
+	to populate our database with. 
+
+4) General Comments
+
+	The general design of the website is starting to come together
+	nicely. The meat of the work for our website will be on the menu page.
+	There is still more foundational things to accomplish before we 
+	can start fulfilling dynamic connections between the website and 
+	the database. For now, creating semi-dynamic pages will do 
+	for now. 
+
+	One thing to keep in mind is the API. We need to figure our the Twilio
+	and Flickr API's to integrate into our page. Our database will probably
+	only hold text, so Flickr will be used to handle image hosting. 
+
+	One app we really want to integrate is the review feature. This
+	will be kept in mind in the upcoming weeks as more of an 
+	overarching goal whose deadline isn't as defined, sans the due date. 
+
+------------------------------------------------------------------------------

@@ -1,0 +1,44 @@
+.carousel-inner img {
+  margin: auto;
+}
+
+#menu-items {
+	max-width: 350px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+#buttons-and-carousel{
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 200px;
+}
+
+#meal-dining-hall-buttons{
+	margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#meal-dining-hall-buttons > button {
+	margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+#modal-rating {
+	vertical-align: middle;
+}
+
+
+
+.foodreviews {
+	height: 270px !important;
+    overflow: auto;
+}

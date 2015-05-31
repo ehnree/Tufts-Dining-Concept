@@ -1,0 +1,91 @@
+.logo {
+	position: relative;
+	top: 15px;
+}
+
+#tech-slideshow {
+        height: 234px;
+        position: relative;
+        overflow: hidden;
+        z-index: -1;
+        top: -40px;
+}
+#tech-slideshow > div {
+    height: 200px;
+    width: 7000px;
+    background: url(../infiniteSlideshow/images/soup_collage_mobile.jpg);
+    position: relative;
+    top: 54px;
+    left: 0;
+    height: 100%;
+    
+    -moz-transition:  opacity 0.5s ease-out; 
+       -o-transition: opacity 0.5s ease-out; 
+  -webkit-transition: opacity 0.5s ease-out; 
+      -ms-transition: opacity 0.5s ease-out; 
+
+    /* Slow */
+    -webkit-animation: moveSlideshow 85s linear infinite;
+    -moz-animation:    moveSlideshow 85s linear infinite;
+    
+    -webkit-transform: translate3d(0,0,0); /* Performance */
+
+}
+#tech-slideshow #tech-slideshow-1 {
+    /* Sprite */
+    background-position: 0 0px;
+    
+    /* Fast */
+    -webkit-animation: moveSlideshow 60s linear infinite;
+    -moz-animation:    moveSlideshow 60s linear infinite;
+}
+#tech-slideshow:hover #tech-slideshow-2 {
+    opacity: 0;
+}
+
+@-webkit-keyframes moveSlideshow {
+    0%   { 
+        -webkit-transform: translateX(0); 
+        -moz-transform:    translateX(0); 
+        -ms-transform:     translateX(0); 
+        -o-transform:      translateX(0); 
+        transform:         translateX(0); 
+    }    
+    100% { 
+        -webkit-transform: translateX(-4300px); 
+        -moz-transform:    translateX(-4300px); 
+        -ms-transform:     translateX(-4300px); 
+        -o-transform:      translateX(-4300px); 
+        transform:         translateX(-4300px); 
+    }
+}
+@-moz-keyframes moveSlideshow {
+    0%   { 
+        -webkit-transform: translateX(0); 
+        -moz-transform:    translateX(0); 
+        -ms-transform:     translateX(0); 
+        -o-transform:      translateX(0); 
+        transform:         translateX(0); 
+    }    
+    100% { 
+        -webkit-transform: translateX(-4300px); 
+        -moz-transform:    translateX(-4300px); 
+        -ms-transform:     translateX(-4300px); 
+        -o-transform:      translateX(-4300px); 
+        transform:         translateX(-4300px); 
+    }
+}
+
+.slicknav_menu {
+    display:none;
+}
+
+@media screen and (max-width: 40em) {
+    .js #menu {
+        display:none;
+    }
+    
+    .js .slicknav_menu {
+        display:block;
+    }
+}

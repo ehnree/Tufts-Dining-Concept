@@ -1,0 +1,27 @@
+TODO List for Tufts Dining:
+
+* Front End
+Pages that need to be designed:
+		1)Home Page
+		2)Menu Page
+		3)Individual Pages for food 
+		4)About Page
+		5)Contact Page
+
+		If we have enough time/energy: "My Menu" Page  
+
+* Back End
+MongoDB 
+	- Populate with data such as:
+		1)Menu Items
+		2)Nutrition Facts
+		3)Image URLs?
+		4)Ratings/reviews 
+
+* Features 
+	-Rating/Review Architecture
+	-Twilio API, Text Messaging Services
+	-Flickr API to host images, user and 
+	website supplied 
+
+More to be added... 
